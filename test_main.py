@@ -12,3 +12,7 @@ def test_capital_case():
 def test_capital_case_wrong():
     assert capital_case_wrong('semaphore') != expected
 
+def breaking_test():
+    expected = 'MaaT'
+    assert capital_case_wrong('maat') != expected
+
